@@ -1,0 +1,23 @@
+body{
+    margin: 0 auto;
+    background-color: pink;
+}
+.container{
+    width: 1000px;
+    height: auto;
+    background-color: white;
+    margin: auto;
+
+}
+.logo{
+    float: left;
+    padding: 15px;
+
+}
+.search{
+    float: right;
+    padding: 15px;
+}
+.clearfix{
+    clear: both;
+}

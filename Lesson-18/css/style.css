@@ -1,0 +1,14 @@
+#box{
+
+    width: 500px;
+    height: auto;
+    
+}
+
+.box-text{
+    color: gray;
+    font-style: italic;
+}
+div#box > .simple-text{
+    color: teal;
+}
