@@ -122,3 +122,44 @@ body{
     font-style: italic;
     text-decoration: none;
 }
+.main-footer{
+    background-color: rgb(204, 103, 92);
+    color: white;
+    width: 950px;
+    height: auto;
+    padding: 25px;
+}
+.footer-box{
+    width: 237.5px;
+    height: auto;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+
+.footer-box > ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-box > ul > li > a{
+    display: block;
+    font-size: small;
+    margin-bottom: 5px;
+    color: white;
+    text-decoration: none;
+}
+.footer-box  address  a{
+    color: rosybrown;
+    font-size: small;
+}
+.copy{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 25px;
+    text-align: center;
+    color: rgb(204, 103, 92);
+}
+.copy  p {
+    margin: 0 px;
+}
