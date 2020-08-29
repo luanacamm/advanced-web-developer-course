@@ -1,69 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
-    <div class = "container"><!-- logo -->
+
+    <div class="container">
+        <!-- logo -->
         <header>
-            <div class = "logo">
+            <div class="logo">
                 <a href="index.html">
-                <img src="bakary.png" alt="logo">
-            </a>
+                    <img src="bakary.png" alt="logo">
+                </a>
             </div>
-        <div class="search"><!--search bar-->
-            
+            <div class="search">
+                <!--search bar-->
+
                 <form>
-                <input type="search" name="s" placeholder="Search site...">
-                <input type="submit" value=">">
+                    <input type="search" name="s" placeholder="Search site...">
+                    <input type="submit" value=">">
                 </form>
-        </div>
-        <div class="clearfix"></div>
-        <nav class="main-menu">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-	            <ul>
-                <li><a href="#">Service One</a></li>
-                <li><a href="#">Service Two</a></li>
-                <li><a href="#">Service Three</a></li>
-                <li><a href="#">Service Four</a></li>
+            </div>
+            <div class="clearfix"></div>
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a>
+                        <ul class="drop">
+                            <li><a href="#">Service One</a></li>
+                            <li><a href="#">Service Two</a></li>
+                            <li><a href="#">Service Three</a></li>
+                            <li><a href="#">Service Four</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav><!--nav-->
-        </header> <!---header-->
-        <section>
+            </nav>
+            <!--nav-->
+        </header>
+        <!---header-->
+        <section class="banner cycle-slideshow">
             <img src="images/cupcake-2749204_1280.jpg" alt="muffin1">
             <img src="images/muffins-2225091_1280.jpg" alt="muffin2">
         </section><!-- Banner Slider -->
 
-        <section><!--- Content holder -->
-            <article>
+        <section class="content-holder">
+            <!--- Content holder -->
+            <article class="content">
                 <main>
                     <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                        Adipisci odio dolorum ullam ut non recusandae, reprehenderit sapiente, 
-                        commodi maiores laudantium, officia qui quam. Porro, sunt consectetur 
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Adipisci odio dolorum ullam ut non recusandae, reprehenderit sapiente,
+                        commodi maiores laudantium, officia qui quam. Porro, sunt consectetur
                         deleniti itaque obcaecati dolorem.
                     </p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                        Adipisci odio dolorum ullam ut non recusandae, reprehenderit sapiente, 
-                        commodi maiores laudantium, officia qui quam. Porro, sunt consectetur 
-                        deleniti itaque obcaecati dolorem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                        Adipisci odio dolorum ullam ut non recusandae, reprehenderit sapiente, 
-                        commodi maiores laudantium, officia qui quam. Porro, sunt consectetur 
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Adipisci odio dolorum ullam ut non recusandae, reprehenderit sapiente,
+                        commodi maiores laudantium, officia qui quam. Porro, sunt consectetur
+                        deleniti itaque obcaecati dolorem. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Adipisci odio dolorum ullam ut non recusandae, reprehenderit sapiente,
+                        commodi maiores laudantium, officia qui quam. Porro, sunt consectetur
                         deleniti itaque obcaecati dolorem.
                     </p>
                 </main>
-            </article><!--- Content holder -->
-            <aside> <!-- sidebar -->
+            </article>
+            <!--- Content holder -->
+            <aside class="sidebar"><!-- sidebar -->
                 <div>
                     <h3>Widget</h3>
                     <ul>
@@ -73,13 +82,14 @@
                     </ul>
                 </div>
             </aside><!-- sidebar -->
+            <div class="clearfix"></div>
         </section>
 
         <footer>
 
             <div>
                 <h3>Footer Menu</h3>
-            
+
             </div>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
@@ -89,11 +99,11 @@
         </footer>
         <div>
             <adress>
-            <p>#100, Someplace, Somewhere far, 458723</p>
-            <p><a href="mailto:contact@someone.com"></a></p>
-            <p><a href="tel:123456789">123456789</a></p>
+                <p>#100, Someplace, Somewhere far, 458723</p>
+                <p><a href="mailto:contact@someone.com"></a></p>
+                <p><a href="tel:123456789">123456789</a></p>
             </adress>
-            </div>
+        </div>
 
         <div>
             <p><small>Copyright &copy; 2020. All right reserved.</small></p>
@@ -101,4 +111,8 @@
     </div>
 
 </body>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="http://malsup.github.com/jquery.cycle2.js"></script>
+
 </html>
