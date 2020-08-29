@@ -163,3 +163,7 @@ body{
 .copy  p {
     margin: 0 px;
 }
+/* Page */
+.content img{
+    max-width: 100%;
+}
