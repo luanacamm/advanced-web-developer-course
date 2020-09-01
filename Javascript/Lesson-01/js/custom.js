@@ -28,3 +28,15 @@ for(i = 1; i< 20; i++){
         continue;
     }
 }
+var someData = [10,20,50,30,40,60];
+var newData = someData.sort();
+console.log(newData);
+
+var someData = [10,20,50,30,40,60];
+var newData = someData.reverse();
+console.log(newData);
+
+var someData = [10,20,50,30,40,60];
+var newData = someData.join();
+console.log(newData);
+
